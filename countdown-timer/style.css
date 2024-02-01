@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap";
+
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1493515322954-4fa727e97985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+	background-position: center center;
+	background-size: cover;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font: 100%/1.3 "Roboto", "Open Sans", sans-serif;
+	flex-direction: column;
+	margin: 0;
+	min-height: 100vh;
+	padding: 0;
+}
+
+.countdown-title h1 {
+	color: #ffffff;
+	font-size: 2.5rem;
+	letter-spacing: 1px;
+}
+
+.countdown-container {
+	display: flex;
+}
+
+.countdown-element {
+	margin: 0 1.5rem;
+	width: 8rem;
+}
+
+.countdown-text {
+	color: #ffffff;
+	font-size: 4rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.countdown-bottom-text {
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+
